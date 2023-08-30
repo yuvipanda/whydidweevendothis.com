@@ -42,8 +42,25 @@
     <h2>
       but because we thought it would be easy.
     </h2>
-    <div class="cite">
+    <div class="cite" id="cite">
       - John F. Kennedy
     </div>
   </main>
+  <script>
+const people = [
+    'John F. Kennedy',
+    'John Lennon',
+    'Mao Zedong',
+    'Mahatma Gandhi',
+    'Bob Dylan',
+    'Albert Hoffman',
+    'Bob Marley',
+    'Donald Knuth',
+    'Sachin Tendulkar'
+
+];
+const randomNumber = Math.floor(Math.random() * people.length);
+const person = people[randomNumber];
+document.getElementById('cite').innerHTML = '- ' + person; 
+  </script>
 </body>
