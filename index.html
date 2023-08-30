@@ -2,32 +2,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<style>
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    text-align: center;
-  }
-  h1 {
-    font-size: 8em;
-  }
-  h2 {
-    font-size: 6em;
-  }
-  .cite {
-    text-align: right;
-  }
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      text-align: center;
+      display: flex;
+      min-height: 100vh;
+    }
+    h1 {
+      font-size: 8em;
+    }
+    h2 {
+      font-size: 6em;
+    }
+    .cite {
+      text-align: right;
+    }
+    main {
+        margin: auto;
+    }
+    @media screen and (max-width:640px) {
+    h1 {
+      font-size: 5em;
+      line-height: 1.1;
+    }
+    h2 {
+      font-size: 3em;
+    }
     
-</style>
-<h1>
-  not because it is easy
-</h1>
-<h2>
-  but because we thought it would be easy.
-</h2>
-<div class="cite">
-  - John F. Kennedy
-</div>
+    }
+  </style>
+  <main>
+    <h1>
+      not because it is easy
+    </h1>
+    <h2>
+      but because we thought it would be easy.
+    </h2>
+    <div class="cite">
+      - John F. Kennedy
+    </div>
+  </main>
 </body>
